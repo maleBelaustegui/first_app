@@ -1,24 +1,12 @@
-import React from 'react';
-import {Text, View} from 'react-native';
+import { CounterScreen } from './src/screens/CounterScreen';
+import { HolaScreen } from './src/screens/HolaScreen';
 
-const App = () => {
+export const App = () => {
   return (
-    <View
-      style={{
-        flex: 1,
-        backgroundColor: 'grey',
-        justifyContent: 'center'
-      }}>
-      <Text style= {{
-        fontSize: 55,
-        textAlign: 'center'
-      }}>
-        
-        hola
-        
-        </Text>
-    </View>
-  );
+   
+   //<HolaScreen/>  
+   <CounterScreen/>
+     );
 };
 
-export default App;
+
