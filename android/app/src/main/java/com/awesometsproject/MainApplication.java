@@ -1,4 +1,4 @@
-package com.awesometsproject;
+package com.MiPrimerApp;
 
 import android.app.Application;
 import com.facebook.react.PackageList;
