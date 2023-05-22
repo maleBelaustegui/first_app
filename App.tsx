@@ -1,14 +1,20 @@
 
 //import { HolaScreen } from './src/screens/HolaScreen';
 
-import { CounterScreen } from "./src/screens/CounterScreen";
+import { SafeAreaView} from "react-native";
+//import { BoxObjectModelScreen } from "./src/screens/BoxObjectModelScreen";
+//import { CounterScreen } from "./src/screens/CounterScreen";
+import { DimentionsScreen } from "./src/screens/DimentionsScreen";
 
 export const App = () => {
   return (
-   
-   //<HolaScreen/>  
-   <CounterScreen/>
-  )
+   <SafeAreaView >
+   {/*//<HolaScreen/>  
+   //<CounterScreen/>
+  <BoxObjectModelScreen/>*/}
+  <DimentionsScreen/>
+   </SafeAreaView>)
 };
+
 
 
